@@ -1,0 +1,1135 @@
+{
+ "version": "2026-09-18",
+ "programmes": [
+  {
+   "slug": "eudp",
+   "name": "EUDP – Energiteknologisk Udviklings- og Demonstrationsprogram",
+   "agency": "Energistyrelsen (Danish Energy Agency)",
+   "region": "DK",
+   "countries": [
+    "DK"
+   ],
+   "type": "grant",
+   "summary": "Denmark's main grant programme for development and demonstration of new energy technologies (TRL 4–8). Two rounds per year (I: spring, II: autumn). Typical projects are consortia of companies and universities/GTS institutes; international partners are allowed when the project advances Danish energy technology.",
+   "summaryDa": "Danmarks største tilskudsprogram til udvikling og demonstration af ny energiteknologi (TRL 4–8). To runder om året. Typisk konsortier af virksomheder og videninstitutioner; udenlandske partnere tilladt, hvis projektet fremmer dansk energiteknologi.",
+   "website": "https://eudp.dk/en",
+   "applyUrl": "https://eudp.dk/soeg-tilskud/indkaldelse-til-eudp",
+   "maxFunding": null,
+   "currency": "DKK",
+   "maxFundingNote": "No formal cap; typical grants DKK 3–30m. 2026-II pool DKK 240m + DKK 61.3m pyrolysis pool.",
+   "fundingRate": "GBER rates: experimental development 25–45% (+15 pp collaboration bonus), industrial research 50–70%, demonstration up to 45–60%; universities/GTS up to 90%.",
+   "trlMin": 4,
+   "trlMax": 8,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium",
+    "large",
+    "research",
+    "public"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "energy",
+    "climate",
+    "cleantech",
+    "industry"
+   ],
+   "deadlines": [
+    {
+     "call": "EUDP 2026-I",
+     "date": "2026-02-25",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "EUDP 2026-II",
+     "date": "2026-09-02",
+     "status": "passed",
+     "note": "DKK 240m general pool + DKK 61.3m pyrolysis."
+    },
+    {
+     "call": "EUDP 2027-I (expected)",
+     "date": "2027-02-24",
+     "status": "tentative",
+     "note": "Pattern: call published ~December, deadline late February. Verify on eudp.dk."
+    },
+    {
+     "call": "EUDP 2027-II (expected)",
+     "date": "2027-09-01",
+     "status": "tentative",
+     "note": "Pattern: deadline early September."
+    }
+   ]
+  },
+  {
+   "slug": "innobooster",
+   "name": "Innobooster",
+   "agency": "Danmarks Innovationsfond (Innovation Fund Denmark)",
+   "region": "DK",
+   "countries": [
+    "DK"
+   ],
+   "type": "grant",
+   "summary": "Investment of DKK 200,000–5,000,000 (max 35% of project costs) in development projects of Danish SMEs (<250 employees). Requires either DKK 100k risk capital/grants raised in the last 3 years or gross profit ≥ DKK 250k in one of the last 3 annual accounts. Several application pools per year; max 24 months.",
+   "summaryDa": null,
+   "website": "https://danmarksinnovationsfond.dk/en/innobooster",
+   "applyUrl": "https://www.e-grant.dk",
+   "maxFunding": 5000000,
+   "currency": "DKK",
+   "maxFundingNote": "DKK 200k–1m under de minimis; DKK 1–5m under GBER.",
+   "fundingRate": "Max 35% of eligible project costs.",
+   "trlMin": 3,
+   "trlMax": 8,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "any",
+    "digital",
+    "cleantech",
+    "health",
+    "industry",
+    "deeptech"
+   ],
+   "deadlines": [
+    {
+     "call": "Innobooster pool 1, 2026",
+     "date": "2026-03-12",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "Innobooster pool 2, 2026",
+     "date": "2026-05-13",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "Innobooster pool 3, 2026",
+     "date": "2026-10-15",
+     "status": "expected",
+     "note": "Listed by fondsradar.dk as next deadline – confirm on danmarksinnovationsfond.dk."
+    }
+   ]
+  },
+  {
+   "slug": "innofounder",
+   "name": "Innofounder",
+   "agency": "Danmarks Innovationsfond",
+   "region": "DK",
+   "countries": [
+    "DK"
+   ],
+   "type": "grant",
+   "summary": "Grant + mentoring for early-stage founders (recent graduates / pre-seed teams) building a knowledge-based startup in Denmark. Monthly grant for the founder(s) plus a small development budget for up to 12 months. Two rounds per year.",
+   "summaryDa": null,
+   "website": "https://danmarksinnovationsfond.dk/en/innofounder",
+   "applyUrl": "https://www.e-grant.dk",
+   "maxFunding": 1000000,
+   "currency": "DKK",
+   "maxFundingNote": "Approx.: monthly founder grant + development budget; check current guidelines.",
+   "fundingRate": "Grant (100% of the fixed package).",
+   "trlMin": 2,
+   "trlMax": 5,
+   "eligibleSizes": [
+    "micro"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "any",
+    "research-spinout",
+    "digital",
+    "deeptech"
+   ],
+   "deadlines": [
+    {
+     "call": "Innofounder efterår 2026",
+     "date": "2026-08-25",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "Innofounder forår 2027 (expected)",
+     "date": "2027-02-15",
+     "status": "tentative",
+     "note": "Spring round usually closes in February/March."
+    }
+   ]
+  },
+  {
+   "slug": "innoexplorer",
+   "name": "Innoexplorer",
+   "agency": "Danmarks Innovationsfond",
+   "region": "DK",
+   "countries": [
+    "DK"
+   ],
+   "type": "grant",
+   "summary": "DKK 0.5–1.5m for employees at Danish public research institutions, universities and hospitals to mature commercially promising research results before founding a company. 2026 themes: green tech, life science, critical & digital tech (plus non-themed pool).",
+   "summaryDa": null,
+   "website": "https://danmarksinnovationsfond.dk/en/innoexplorer",
+   "applyUrl": "https://www.e-grant.dk",
+   "maxFunding": 1500000,
+   "currency": "DKK",
+   "maxFundingNote": null,
+   "fundingRate": "100% grant incl. overhead.",
+   "trlMin": 2,
+   "trlMax": 4,
+   "eligibleSizes": [
+    "research"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "research-spinout",
+    "cleantech",
+    "health",
+    "digital",
+    "deeptech"
+   ],
+   "deadlines": [
+    {
+     "call": "Innoexplorer round 3, 2026",
+     "date": "2026-09-23",
+     "status": "confirmed",
+     "note": "Opened 26 Aug 2026. Response expected 4 Dec 2026."
+    }
+   ]
+  },
+  {
+   "slug": "grand-solutions",
+   "name": "Grand Solutions",
+   "agency": "Danmarks Innovationsfond",
+   "region": "DK",
+   "countries": [
+    "DK"
+   ],
+   "type": "grant",
+   "summary": "Large strategic R&D projects (typically DKK 5–30m investment) in consortia of companies and research institutions within thematic calls (green, life science, critical & digital tech, quantum, biosolutions, defence). Two-phase process: expression of interest (phase 1) and full application (phase 2).",
+   "summaryDa": null,
+   "website": "https://danmarksinnovationsfond.dk/en/grand-solutions",
+   "applyUrl": "https://www.e-grant.dk",
+   "maxFunding": 30000000,
+   "currency": "DKK",
+   "maxFundingNote": "Typical DKK 5–30m; larger in some calls.",
+   "fundingRate": "Companies per GBER (typ. 25–70%), research institutions up to 90%; total public share usually ≤ 75%.",
+   "trlMin": 3,
+   "trlMax": 7,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium",
+    "large",
+    "research",
+    "public"
+   ],
+   "consortiumRequired": true,
+   "tags": [
+    "cleantech",
+    "climate",
+    "energy",
+    "health",
+    "biotech",
+    "digital",
+    "quantum",
+    "defence",
+    "deeptech"
+   ],
+   "deadlines": [
+    {
+     "call": "Grand Solutions 2026 – phase 1 (EoI)",
+     "date": "2026-03-03",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "Grand Solutions 2026 – phase 2 (full)",
+     "date": "2026-09-10",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "Grand Solutions 2027 – phase 1 (expected)",
+     "date": "2027-03-02",
+     "status": "tentative",
+     "note": "Call usually opens in e-grant early January; verify themes in December."
+    }
+   ]
+  },
+  {
+   "slug": "mudp",
+   "name": "MUDP – Miljøteknologisk Udviklings- og Demonstrationsprogram",
+   "agency": "Miljøstyrelsen (Danish EPA)",
+   "region": "DK",
+   "countries": [
+    "DK"
+   ],
+   "type": "grant",
+   "summary": "Grants for environmental technology: pre-projects and ETV verification (SMEs, de minimis), development/test/demonstration projects (GBER) and full-scale flagship (fyrtårn) projects. ≈ DKK 130m per year; one annual call published in February with staggered deadlines.",
+   "summaryDa": null,
+   "website": "https://mudp.dk/",
+   "applyUrl": "https://mudp.dk/soeger-du-tilskud/aktuelle-ansoegningsrunder",
+   "maxFunding": null,
+   "currency": "DKK",
+   "maxFundingNote": "Pre-projects typically < DKK 0.5m; development/demo DKK 1–10m; flagship up to ≈ DKK 20m.",
+   "fundingRate": "SME pre-projects/ETV up to 100% under de minimis (capped); development 25–60% per GBER; flagship demo up to 45–60%.",
+   "trlMin": 4,
+   "trlMax": 9,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium",
+    "large",
+    "research",
+    "public"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "environment",
+    "water",
+    "circular",
+    "cleantech",
+    "climate",
+    "industry"
+   ],
+   "deadlines": [
+    {
+     "call": "MUDP 2026 – forprojekter & ETV",
+     "date": "2026-04-13",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "MUDP 2026 – udviklings-, test- og demonstrationsprojekter",
+     "date": "2026-05-19",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "MUDP 2026 – fyrtårnsprojekter",
+     "date": "2026-08-25",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "MUDP 2027 – call publication (expected)",
+     "date": "2027-02-05",
+     "status": "tentative",
+     "note": "2026 call was published 6 Feb; deadlines April–August."
+    },
+    {
+     "call": "MUDP 2027 – forprojekter & ETV (expected)",
+     "date": "2027-04-13",
+     "status": "tentative",
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "eifo",
+   "name": "EIFO – Danmarks Eksport- og Investeringsfond",
+   "agency": "EIFO",
+   "region": "DK",
+   "countries": [
+    "DK"
+   ],
+   "type": "blended",
+   "summary": "Denmark's state export and investment fund: loans, guarantees, export credits and equity (direct venture investments and fund-of-funds) for Danish companies at all stages, including green transition loans. Rolling applications – no deadlines; bank co-financing is common.",
+   "summaryDa": null,
+   "website": "https://eifo.dk/",
+   "applyUrl": "https://eifo.dk/loesninger/laanefinansiering/",
+   "maxFunding": null,
+   "currency": "DKK",
+   "maxFundingNote": "Loans from ≈ DKK 1m; venture tickets typically DKK 5–100m.",
+   "fundingRate": "Debt/equity on market-conform terms (not a grant).",
+   "trlMin": 5,
+   "trlMax": 9,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium",
+    "large"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "any",
+    "scaleup",
+    "cleantech",
+    "internationalisation"
+   ],
+   "deadlines": []
+  },
+  {
+   "slug": "industriens-fond",
+   "name": "Industriens Fond",
+   "agency": "Industriens Fond (Danish Industry Foundation)",
+   "region": "DK",
+   "countries": [
+    "DK"
+   ],
+   "type": "grant",
+   "summary": "Private foundation funding projects that strengthen the competitiveness of Danish industry (themes: digitalisation, green transition, entrepreneurship, competences). Open applications year-round plus thematic calls.",
+   "summaryDa": null,
+   "website": "https://www.industriensfond.dk/",
+   "applyUrl": "https://www.industriensfond.dk/ansoeg",
+   "maxFunding": null,
+   "currency": "DKK",
+   "maxFundingNote": null,
+   "fundingRate": "Grant; typically for non-profit/knowledge-sharing projects with broad industry benefit.",
+   "trlMin": null,
+   "trlMax": null,
+   "eligibleSizes": [
+    "research",
+    "public",
+    "small",
+    "medium",
+    "large"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "industry",
+    "digital",
+    "cleantech",
+    "any"
+   ],
+   "deadlines": []
+  },
+  {
+   "slug": "nopef",
+   "name": "Nopef – Nordic Project Fund",
+   "agency": "Nefco",
+   "region": "NORDIC",
+   "countries": [
+    "NORDIC"
+   ],
+   "type": "conditional_loan",
+   "summary": "Up to EUR 50,000 (max 50% of costs) for feasibility studies by Nordic SMEs on internationalising green solutions to markets outside the EU/EFTA. Conditional loan: fully converted to a grant if the project leads to an international establishment, 50% otherwise. Six deadlines per year; 5–6 weeks processing.",
+   "summaryDa": null,
+   "website": "https://nopef.com/",
+   "applyUrl": "https://nopef.com/financing/apply-for-funding/",
+   "maxFunding": 50000,
+   "currency": "EUR",
+   "maxFundingNote": null,
+   "fundingRate": "Max 50% of approved feasibility study costs.",
+   "trlMin": 6,
+   "trlMax": 9,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "internationalisation",
+    "feasibility",
+    "cleantech",
+    "climate",
+    "circular",
+    "water",
+    "energy"
+   ],
+   "deadlines": [
+    {
+     "call": "Nopef spring 3/2026",
+     "date": "2026-05-15",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "Nopef autumn 1/2026",
+     "date": "2026-08-21",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "Nopef autumn 2/2026",
+     "date": "2026-10-02",
+     "status": "confirmed",
+     "note": null
+    },
+    {
+     "call": "Nopef autumn 3/2026",
+     "date": "2026-11-13",
+     "status": "confirmed",
+     "note": null
+    },
+    {
+     "call": "Nopef spring 1/2027 (expected)",
+     "date": "2027-02-12",
+     "status": "tentative",
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "nordic-innovation",
+   "name": "Nordic Innovation – calls for proposals",
+   "agency": "Nordic Innovation (Nordic Council of Ministers)",
+   "region": "NORDIC",
+   "countries": [
+    "NORDIC"
+   ],
+   "type": "grant",
+   "summary": "Thematic calls (green & competitive Nordic region, circular economy, critical raw materials, talent, mobility). Projects require partners from at least three Nordic countries and typically 50% co-funding. Grants up to ≈ NOK 2–6m depending on call.",
+   "summaryDa": null,
+   "website": "https://www.nordicinnovation.org/funding-opportunities",
+   "applyUrl": "https://www.nordicinnovation.org/funding-opportunities",
+   "maxFunding": 6000000,
+   "currency": "NOK",
+   "maxFundingNote": "Call-specific; e.g. talent call up to NOK 2m.",
+   "fundingRate": "Typically max 50% (co-funding required).",
+   "trlMin": 4,
+   "trlMax": 9,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium",
+    "large",
+    "research",
+    "public"
+   ],
+   "consortiumRequired": true,
+   "tags": [
+    "circular",
+    "materials",
+    "cleantech",
+    "industry",
+    "mobility",
+    "any"
+   ],
+   "deadlines": [
+    {
+     "call": "Secondary critical raw materials value chains",
+     "date": "2026-09-23",
+     "status": "confirmed",
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "eic-accelerator",
+   "name": "EIC Accelerator",
+   "agency": "European Innovation Council (EISMEA)",
+   "region": "EU",
+   "countries": [
+    "HE_ASSOC"
+   ],
+   "type": "blended",
+   "summary": "Grant up to EUR 2.5m (TRL 6→8, max 24 months) and/or equity EUR 1–10m (up to EUR 30m via STEP) for single startups/SMEs with breakthrough, market-creating innovations. Short application any time (batched monthly, first Tuesday 17:00 Brussels); full application at six cut-offs per year; jury interview. Seal of Excellence for scores ≥ 13/15.",
+   "summaryDa": null,
+   "website": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+   "applyUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search;programCode=HORIZON",
+   "maxFunding": 2500000,
+   "currency": "EUR",
+   "maxFundingNote": "Grant ≤ EUR 2.5m; equity EUR 1–10m (STEP Scale-Up EUR 10–30m).",
+   "fundingRate": "Grant 70% of eligible costs (100% for non-profit); equity at market terms.",
+   "trlMin": 5,
+   "trlMax": 9,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "deeptech",
+    "digital",
+    "ai",
+    "cleantech",
+    "health",
+    "biotech",
+    "quantum",
+    "energy",
+    "scaleup",
+    "any"
+   ],
+   "deadlines": [
+    {
+     "call": "Full application cut-off 5/2026",
+     "date": "2026-09-02",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "Short application batch (Oct)",
+     "date": "2026-10-06",
+     "status": "confirmed",
+     "note": "First Tuesday of the month."
+    },
+    {
+     "call": "Full application cut-off 6/2026",
+     "date": "2026-11-04",
+     "status": "confirmed",
+     "note": null
+    },
+    {
+     "call": "Short application batch (Nov)",
+     "date": "2026-11-03",
+     "status": "confirmed",
+     "note": null
+    },
+    {
+     "call": "Short application batch (Dec)",
+     "date": "2026-12-01",
+     "status": "confirmed",
+     "note": null
+    },
+    {
+     "call": "Full application cut-off 1/2027 (expected)",
+     "date": "2027-01-13",
+     "status": "tentative",
+     "note": "WP2027 not yet published; 2026 pattern = 6 bimonthly cut-offs."
+    }
+   ]
+  },
+  {
+   "slug": "eic-pathfinder",
+   "name": "EIC Pathfinder (Open & Challenges)",
+   "agency": "European Innovation Council",
+   "region": "EU",
+   "countries": [
+    "HE_ASSOC"
+   ],
+   "type": "grant",
+   "summary": "100% grants for visionary early-stage research (TRL 1–4): Pathfinder Open up to EUR 3m for consortia of ≥ 3 entities from 3 countries; Pathfinder Challenges up to EUR 4m (single applicants allowed) in defined topics. 2026 budget EUR 262m.",
+   "summaryDa": null,
+   "website": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder_en",
+   "applyUrl": null,
+   "maxFunding": 4000000,
+   "currency": "EUR",
+   "maxFundingNote": "Open EUR 3m; Challenges EUR 4m.",
+   "fundingRate": "100% of eligible costs + 25% overhead.",
+   "trlMin": 1,
+   "trlMax": 4,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium",
+    "large",
+    "research",
+    "public"
+   ],
+   "consortiumRequired": true,
+   "tags": [
+    "deeptech",
+    "research-spinout",
+    "quantum",
+    "biotech",
+    "materials",
+    "energy",
+    "ai"
+   ],
+   "deadlines": [
+    {
+     "call": "Pathfinder Open 2026",
+     "date": "2026-05-12",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "Pathfinder Challenges 2026",
+     "date": "2026-10-28",
+     "status": "confirmed",
+     "note": null
+    },
+    {
+     "call": "Pathfinder Open 2027 (expected)",
+     "date": "2027-05-11",
+     "status": "tentative",
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "eic-transition",
+   "name": "EIC Transition",
+   "agency": "European Innovation Council",
+   "region": "EU",
+   "countries": [
+    "HE_ASSOC"
+   ],
+   "type": "grant",
+   "summary": "Up to EUR 2.5m (100%) to mature results from EIC Pathfinder, ERC Proof of Concept and selected Horizon projects from TRL 3 to TRL 5–6 and develop a business case. Single applicants (SMEs, spin-offs, research orgs) or consortia of 2–5 entities. One deadline per year; 2026 budget EUR 100m.",
+   "summaryDa": null,
+   "website": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-transition_en",
+   "applyUrl": null,
+   "maxFunding": 2500000,
+   "currency": "EUR",
+   "maxFundingNote": null,
+   "fundingRate": "100% + 25% overhead.",
+   "trlMin": 3,
+   "trlMax": 6,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium",
+    "research",
+    "public"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "deeptech",
+    "research-spinout",
+    "biotech",
+    "quantum",
+    "materials",
+    "digital"
+   ],
+   "deadlines": [
+    {
+     "call": "EIC Transition 2026",
+     "date": "2026-09-16",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "EIC Transition 2027 (expected)",
+     "date": "2027-09-15",
+     "status": "tentative",
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "eic-step-scaleup",
+   "name": "EIC STEP Scale-Up",
+   "agency": "European Innovation Council",
+   "region": "EU",
+   "countries": [
+    "EU"
+   ],
+   "type": "equity",
+   "summary": "Equity-only investments of EUR 10–30m in startups, SMEs and small mid-caps (≤ 499 employees) scaling strategic technologies (digital & deep tech, clean tech, biotech). Continuous submission evaluated in batches; 2026 budget EUR 300m.",
+   "summaryDa": null,
+   "website": "https://eic.ec.europa.eu/eic-funding-opportunities/step-scale_en",
+   "applyUrl": null,
+   "maxFunding": 30000000,
+   "currency": "EUR",
+   "maxFundingNote": null,
+   "fundingRate": "Equity (market terms), min ticket EUR 10m.",
+   "trlMin": 7,
+   "trlMax": 9,
+   "eligibleSizes": [
+    "small",
+    "medium"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "scaleup",
+    "deeptech",
+    "cleantech",
+    "biotech",
+    "digital",
+    "quantum",
+    "defence"
+   ],
+   "deadlines": [
+    {
+     "call": "STEP Scale-Up batch 3/2026",
+     "date": "2026-09-09",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "STEP Scale-Up batch 4/2026",
+     "date": "2026-11-25",
+     "status": "confirmed",
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "eurostars",
+   "name": "Eurostars (Eureka)",
+   "agency": "Eureka Secretariat + national funding bodies (DK: Innovationsfonden; PL: NCBR)",
+   "region": "EU",
+   "countries": [
+    "EU",
+    "NO",
+    "IS",
+    "CH",
+    "GB",
+    "TR",
+    "IL",
+    "CA",
+    "KR",
+    "SG",
+    "ZA",
+    "UA"
+   ],
+   "type": "grant",
+   "summary": "Transnational market-oriented R&D projects led by an innovative SME: ≥ 2 independent entities from ≥ 2 Eurostars countries (≥ 1 EU/AC), ≤ 36 months, SMEs ≥ 50% of costs, no participant/country > 70%. Funding paid nationally (Denmark: max EUR 300k per participant / EUR 500k if several Danish partners; Poland via NCBR). Two calls per year (March & September).",
+   "summaryDa": null,
+   "website": "https://www.eurekanetwork.org/programmes-and-calls/eurostars/",
+   "applyUrl": "https://myeurekaproject.org/",
+   "maxFunding": 300000,
+   "currency": "EUR",
+   "maxFundingNote": "DK: EUR 300k/participant (EUR 500k for several DK participants). PL (NCBR): up to ≈ PLN 1.5–2m per project; rates depend on country.",
+   "fundingRate": "Country-specific: DK SMEs ≈ 60% (dev.) / large ≈ 40%; PL SMEs up to 60–80%.",
+   "trlMin": 4,
+   "trlMax": 8,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium",
+    "large",
+    "research"
+   ],
+   "consortiumRequired": true,
+   "tags": [
+    "any",
+    "digital",
+    "health",
+    "cleantech",
+    "industry",
+    "materials",
+    "energy"
+   ],
+   "deadlines": [
+    {
+     "call": "Eurostars Call 10",
+     "date": "2026-03-19",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "Eurostars Call 11",
+     "date": "2026-09-10",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "Eurostars Call 12 (expected)",
+     "date": "2027-03-18",
+     "status": "tentative",
+     "note": "Pattern: opens mid-January, closes mid/late March."
+    }
+   ]
+  },
+  {
+   "slug": "horizon-cl5",
+   "name": "Horizon Europe – Cluster 5 (Climate, Energy & Mobility)",
+   "agency": "European Commission / CINEA",
+   "region": "EU",
+   "countries": [
+    "HE_ASSOC"
+   ],
+   "type": "grant",
+   "summary": "Collaborative R&I projects (RIA 100%, IA 70% for companies) in energy supply, energy use, mobility and climate science. Consortia of ≥ 3 entities from 3 different MS/AC; typical grants EUR 3–15m. 2026 topics closed Feb–April 2026; 2027 topics expected to open autumn 2026.",
+   "summaryDa": null,
+   "website": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/cluster-5-climate-energy-and-mobility_en",
+   "applyUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?programmePeriod=2021-2027&frameworkProgramme=43108390",
+   "maxFunding": 15000000,
+   "currency": "EUR",
+   "maxFundingNote": "Topic-specific; EUR 2–20m.",
+   "fundingRate": "RIA 100%, IA 70% (100% non-profit) + 25% overhead.",
+   "trlMin": 3,
+   "trlMax": 8,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium",
+    "large",
+    "research",
+    "public"
+   ],
+   "consortiumRequired": true,
+   "tags": [
+    "energy",
+    "climate",
+    "mobility",
+    "cleantech",
+    "industry",
+    "materials"
+   ],
+   "deadlines": [
+    {
+     "call": "HORIZON-CL5-2026-02 (energy D3/D4)",
+     "date": "2026-02-17",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "HORIZON-CL5-2026-05 (mobility)",
+     "date": "2026-04-15",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "HORIZON-CL5-2026-07 (climate)",
+     "date": "2026-04-16",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "HORIZON-CL5-2027 energy topics (expected)",
+     "date": "2027-02-16",
+     "status": "tentative",
+     "note": "WP 2027 expected autumn 2026."
+    }
+   ]
+  },
+  {
+   "slug": "innovation-fund",
+   "name": "EU Innovation Fund (Net-Zero Technologies)",
+   "agency": "European Commission (DG CLIMA) / CINEA",
+   "region": "EU",
+   "countries": [
+    "EU",
+    "NO",
+    "IS",
+    "LI"
+   ],
+   "type": "grant",
+   "summary": "One of the largest funds for first-of-a-kind commercial demonstration of net-zero technologies (TRL 8+): general decarbonisation projects (small EUR 2.5–20m capex, medium 20–100m, large > 100m), clean-tech manufacturing and pilots. Grant up to 60% of relevant costs. Annual call; IF25 closed April 2026, IF26 expected to open Q4 2026 with deadline ≈ April 2027.",
+   "summaryDa": null,
+   "website": "https://climate.ec.europa.eu/areas-action/eu-funding-climate-action/innovation-fund_en",
+   "applyUrl": "https://cinea.ec.europa.eu/programmes/innovation-fund/calls-regular-grants_en",
+   "maxFunding": null,
+   "currency": "EUR",
+   "maxFundingNote": "No cap; awards from a few EUR m to > EUR 200m.",
+   "fundingRate": "Up to 60% of relevant costs (capex + opex delta).",
+   "trlMin": 8,
+   "trlMax": 9,
+   "eligibleSizes": [
+    "small",
+    "medium",
+    "large",
+    "public"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "climate",
+    "energy",
+    "industry",
+    "cleantech",
+    "materials"
+   ],
+   "deadlines": [
+    {
+     "call": "INNOVFUND-2025-NZT",
+     "date": "2026-04-23",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "IF26 call opening (expected)",
+     "date": "2026-12-03",
+     "status": "tentative",
+     "note": "Expected Q4 2026."
+    },
+    {
+     "call": "INNOVFUND-2026-NZT (expected)",
+     "date": "2027-04-22",
+     "status": "tentative",
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "life",
+   "name": "LIFE Programme – Standard Action Projects",
+   "agency": "CINEA",
+   "region": "EU",
+   "countries": [
+    "EU",
+    "IS",
+    "UA",
+    "MD",
+    "ME",
+    "MK",
+    "AL",
+    "BA",
+    "RS"
+   ],
+   "type": "grant",
+   "summary": "EU programme for environment and climate action: circular economy & quality of life, nature & biodiversity, climate mitigation/adaptation/governance, clean energy transition. Standard Action Projects EUR 1–5m, 60% co-funding (up to 75% for priority habitats). Single beneficiary allowed; consortia common.",
+   "summaryDa": null,
+   "website": "https://cinea.ec.europa.eu/programmes/life_en",
+   "applyUrl": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
+   "maxFunding": 5000000,
+   "currency": "EUR",
+   "maxFundingNote": "Typical SAP EUR 1–5m.",
+   "fundingRate": "60% (67–75% nature priority).",
+   "trlMin": 6,
+   "trlMax": 9,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium",
+    "large",
+    "research",
+    "public"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "environment",
+    "climate",
+    "circular",
+    "water",
+    "energy",
+    "cleantech"
+   ],
+   "deadlines": [
+    {
+     "call": "LIFE 2026 – Standard Action Projects",
+     "date": "2026-09-22",
+     "status": "confirmed",
+     "note": null
+    },
+    {
+     "call": "LIFE 2027 – SAP (expected)",
+     "date": "2027-09-21",
+     "status": "tentative",
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "digital-europe",
+   "name": "Digital Europe Programme",
+   "agency": "European Commission / HaDEA",
+   "region": "EU",
+   "countries": [
+    "EU",
+    "NO",
+    "IS",
+    "LI",
+    "UA",
+    "MD",
+    "ME",
+    "MK",
+    "RS",
+    "AL",
+    "TR"
+   ],
+   "type": "grant",
+   "summary": "Deployment-oriented funding for AI, data, cloud, cybersecurity, advanced digital skills and digital public services (50% co-funding SME/large, 100% for some coordination actions). Consortia usually ≥ 3 entities from 3 countries. 10th call round: opened 21 April 2026, deadline 1 October 2026.",
+   "summaryDa": null,
+   "website": "https://digital-strategy.ec.europa.eu/en/activities/digital-programme",
+   "applyUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?frameworkProgramme=43152860",
+   "maxFunding": 10000000,
+   "currency": "EUR",
+   "maxFundingNote": "Topic-specific.",
+   "fundingRate": "50% (SME & large), 100% for some SGA/CSA.",
+   "trlMin": 7,
+   "trlMax": 9,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium",
+    "large",
+    "research",
+    "public"
+   ],
+   "consortiumRequired": true,
+   "tags": [
+    "digital",
+    "ai",
+    "industry"
+   ],
+   "deadlines": [
+    {
+     "call": "DIGITAL 10th call round",
+     "date": "2026-10-01",
+     "status": "confirmed",
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "cef-energy-cbres",
+   "name": "CEF Energy – Cross-Border Renewable Energy (CB RES)",
+   "agency": "CINEA",
+   "region": "EU",
+   "countries": [
+    "EU"
+   ],
+   "type": "grant",
+   "summary": "Two-step scheme: first obtain CB RES status (6th status call open 29 Jun – 6 Oct 2026, budget EUR 150m for later works), then apply for grants for studies and works (final works call expected 2027). Projects must involve ≥ 2 Member States (or MS + third country) in renewable generation/cross-border cooperation.",
+   "summaryDa": null,
+   "website": "https://cinea.ec.europa.eu/programmes/connecting-europe-facility/energy-infrastructure-connecting-europe-facility-0/cross-border-renewable-energy-projects-cef-energy-new_en",
+   "applyUrl": "https://cinea.ec.europa.eu/2026-6th-call-cross-border-renewable-energy-cb-res-projects-application-process-cb-res-status_en",
+   "maxFunding": null,
+   "currency": "EUR",
+   "maxFundingNote": "Studies up to 50%, works typically up to 50%.",
+   "fundingRate": "Up to 50%.",
+   "trlMin": 8,
+   "trlMax": 9,
+   "eligibleSizes": [
+    "medium",
+    "large",
+    "public"
+   ],
+   "consortiumRequired": true,
+   "tags": [
+    "energy",
+    "climate"
+   ],
+   "deadlines": [
+    {
+     "call": "6th CB RES status call",
+     "date": "2026-10-06",
+     "status": "confirmed",
+     "note": null
+    },
+    {
+     "call": "CB RES studies & works call (expected)",
+     "date": "2027-06-30",
+     "status": "tentative",
+     "note": "Final works call announced for 2027."
+    }
+   ]
+  },
+  {
+   "slug": "interreg-south-baltic",
+   "name": "Interreg South Baltic – small-scale projects",
+   "agency": "Interreg South Baltic Programme 2021–2027 (JS Gdańsk)",
+   "region": "EU",
+   "countries": [
+    "PL",
+    "DK",
+    "DE",
+    "LT",
+    "SE"
+   ],
+   "type": "grant",
+   "summary": "Cross-border cooperation between Poland, Denmark, Germany, Lithuania and Sweden (South Baltic coastal regions). Small-scale projects ≈ EUR 50–200k ERDF, 80% co-funding, partners from ≥ 2 programme countries. 4th small-scale call: 16 Sep – 4 Nov 2026.",
+   "summaryDa": null,
+   "website": "https://southbaltic.eu/",
+   "applyUrl": "https://southbaltic.eu/for-applicants/calls-for-proposals/",
+   "maxFunding": 200000,
+   "currency": "EUR",
+   "maxFundingNote": "Small-scale ≈ EUR 50–200k; regular projects up to ≈ EUR 2m.",
+   "fundingRate": "80% ERDF.",
+   "trlMin": 5,
+   "trlMax": 9,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium",
+    "research",
+    "public"
+   ],
+   "consortiumRequired": true,
+   "tags": [
+    "cleantech",
+    "circular",
+    "water",
+    "internationalisation",
+    "any"
+   ],
+   "deadlines": [
+    {
+     "call": "4th small-scale project call",
+     "date": "2026-11-04",
+     "status": "confirmed",
+     "note": "Opened 16 Sep 2026."
+    }
+   ]
+  }
+ ]
+}
