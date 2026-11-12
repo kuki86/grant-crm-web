@@ -1,11 +1,11 @@
 {
-  "name": "Grant CRM",
-  "short_name": "Grant CRM",
+  "name": "GlobalCRM",
+  "short_name": "GlobalCRM",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#1F5FA8",
-  "description": "Grant CRM \u2013 EU, Danish and Nordic grant leads",
+  "description": "GlobalCRM \u2013 EU, Danish and Nordic grant leads",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "icons": [
