@@ -31,8 +31,43 @@
 
   <title>GlobalCRM</title>
   <link rel="manifest" href="manifest.json">
+  <!-- The rendering engine comes from Google's CDN: open the connection early. -->
+  <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+  <link rel="preload" href="flutter_bootstrap.js" as="script">
+  <meta name="theme-color" content="#F7F8FA">
+  <style>
+    html, body { margin: 0; height: 100%; background: #F7F8FA; }
+    #loader { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 18px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; transition: opacity .25s; }
+    #loader img { width: 88px; height: 88px; border-radius: 20px; box-shadow: 0 6px 24px rgba(0,0,0,.12); }
+    #loader .bar { width: 160px; height: 4px; border-radius: 2px; background: rgba(200,112,48,.18); overflow: hidden; }
+    #loader .bar::after { content: ""; display: block; width: 40%; height: 100%; border-radius: 2px; background: #C87030;
+      animation: slide 1.1s ease-in-out infinite; }
+    #loader p { margin: 0; font-size: 14px; color: #5E5A55; }
+    @keyframes slide { from { transform: translateX(-100%); } to { transform: translateX(250%); } }
+    @media (prefers-reduced-motion: reduce) { #loader .bar::after { animation: none; width: 100%; } }
+  </style>
 </head>
 <body>
+  <!-- Shown until Flutter draws its first frame. -->
+  <div id="loader" role="status" aria-live="polite">
+    <img src="icons/Icon-192.png" alt="">
+    <div class="bar"></div>
+    <p id="loader-text">GlobalCRM</p>
+  </div>
+  <script>
+    (function () {
+      var lang = (navigator.language || 'en').slice(0, 2);
+      var t = { da: 'Starter GlobalCRM …', pl: 'Uruchamianie GlobalCRM …' }[lang] || 'Starting GlobalCRM …';
+      document.getElementById('loader-text').textContent = t;
+      window.addEventListener('flutter-first-frame', function () {
+        var el = document.getElementById('loader');
+        if (!el) return;
+        el.style.opacity = '0';
+        setTimeout(function () { el.remove(); }, 300);
+      });
+    })();
+  </script>
   <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader
