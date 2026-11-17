@@ -1,5 +1,5 @@
 {
- "version": "2026-11-17",
+ "version": "2026-11-17T12:00:00",
  "programmes": [
   {
    "slug": "eudp",
@@ -52,7 +52,8 @@
      "call": "EUDP 2027-I (expected)",
      "date": "2027-02-24",
      "status": "tentative",
-     "note": "Pattern: call published ~December, deadline late February. Verify on eudp.dk."
+     "note": "Pattern: call published in mid-December, deadline late February. Verify on eudp.dk.",
+     "opens": "2026-12-15"
     },
     {
      "call": "EUDP 2027-II (expected)",
@@ -212,7 +213,8 @@
      "call": "Innoexplorer round 3, 2026",
      "date": "2026-09-23",
      "status": "passed",
-     "note": "Opened 26 Aug 2026. Response expected 4 Dec 2026."
+     "note": "Response expected 4 Dec 2026.",
+     "opens": "2026-08-26"
     },
     {
      "call": "Innoexplorer round 1, 2027 (expected)",
@@ -341,16 +343,11 @@
      "note": null
     },
     {
-     "call": "MUDP 2027 – call publication (expected)",
-     "date": "2027-02-05",
-     "status": "tentative",
-     "note": "2026 call was published 6 Feb; deadlines April–August."
-    },
-    {
      "call": "MUDP 2027 – forprojekter & ETV (expected)",
      "date": "2027-04-13",
      "status": "tentative",
-     "note": null
+     "note": null,
+     "opens": "2027-02-05"
     }
    ],
    "process": "Call published in February; separate deadlines for pre-projects (April), development and demonstration (May) and lighthouse projects (August). 2027 is the last year of the current strategy (2024–2027)."
@@ -893,7 +890,8 @@
      "call": "Eurostars-3 call 12",
      "date": "2027-03-04",
      "status": "expected",
-     "note": "Opens 17 Dec 2026, closes 14:00 CET. Reported by aggregators; verify on eurekanetwork.org."
+     "note": "Closes 14:00 CET. Reported by aggregators; verify on eurekanetwork.org.",
+     "opens": "2026-12-17"
     },
     {
      "call": "Eurostars-3 call 13 (expected)",
@@ -1013,16 +1011,11 @@
      "note": null
     },
     {
-     "call": "IF26 calls open (planned)",
-     "date": "2026-12-03",
-     "status": "expected",
-     "note": "Five calls: NZT, SME, maritime, hydrogen auction, heat auction."
-    },
-    {
      "call": "IF26 Net-Zero Technologies (indicative)",
      "date": "2027-04-01",
      "status": "tentative",
-     "note": "April 2027; the exact date comes with the call text."
+     "note": "April 2027; the exact date comes with the call text. Call opening planned for 3 December 2026.",
+     "opens": "2026-12-03"
     }
    ],
    "process": "Single-stage application in the EU Funding & Tenders portal; scored on GHG avoidance, innovation, maturity, replicability and cost efficiency. Results about six months after the deadline, grant agreement within nine.",
@@ -1066,22 +1059,18 @@
    ],
    "deadlines": [
     {
-     "call": "IF26 SME call opens (planned)",
-     "date": "2026-12-03",
-     "status": "expected",
-     "note": null
-    },
-    {
      "call": "IF26 SME call, first deadline",
      "date": "2027-03-31",
      "status": "tentative",
-     "note": "End of March 2027."
+     "note": "End of March 2027.",
+     "opens": "2026-12-03"
     },
     {
      "call": "IF26 SME call, second deadline",
      "date": "2027-09-30",
      "status": "tentative",
-     "note": "End of September 2027."
+     "note": "End of September 2027.",
+     "opens": "2026-12-03"
     }
    ],
    "process": "Online orientation dialogues (25 minutes) are offered from 7 December 2026 to 11 February 2027. Two cut-offs in 2027.",
@@ -1127,10 +1116,11 @@
    ],
    "deadlines": [
     {
-     "call": "IF26 maritime call opens (planned)",
-     "date": "2026-12-03",
-     "status": "expected",
-     "note": "Deadline not published; expected in spring 2027."
+     "call": "IF26 maritime call (deadline not published)",
+     "date": "2027-04-01",
+     "opens": "2026-12-03",
+     "status": "tentative",
+     "note": "The deadline is a placeholder until the call text is out; spring 2027 is expected."
     }
    ],
    "duration": "At least 3–10 years of monitored operation after entry into operation, depending on the topic.",
@@ -1334,7 +1324,8 @@
      "call": "4th small-scale project call",
      "date": "2026-11-04",
      "status": "passed",
-     "note": "Opened 16 Sep 2026."
+     "note": null,
+     "opens": "2026-09-16"
     }
    ]
   }
