@@ -1,5 +1,5 @@
 {
- "version": "2026-09-18",
+ "version": "2026-11-17",
  "programmes": [
   {
    "slug": "eudp",
@@ -16,7 +16,7 @@
    "applyUrl": "https://eudp.dk/soeg-tilskud/indkaldelse-til-eudp",
    "maxFunding": null,
    "currency": "DKK",
-   "maxFundingNote": "No formal cap; typical grants DKK 3–30m. 2026-II pool DKK 240m + DKK 61.3m pyrolysis pool.",
+   "maxFundingNote": "No formal cap; typical grants DKK 3–30m.",
    "fundingRate": "GBER rates: experimental development 25–45% (+15 pp collaboration bonus), industrial research 50–70%, demonstration up to 45–60%; universities/GTS up to 90%.",
    "trlMin": 4,
    "trlMax": 8,
@@ -60,7 +60,9 @@
      "status": "tentative",
      "note": "Pattern: deadline early September."
     }
-   ]
+   ],
+   "process": "One-stage application in the EUDP portal; the board decides about four months after the deadline (June and December).",
+   "duration": "Typically 1–4 years."
   },
   {
    "slug": "innobooster",
@@ -72,7 +74,7 @@
    ],
    "type": "grant",
    "summary": "Investment of DKK 200,000–5,000,000 (max 35% of project costs) in development projects of Danish SMEs (<250 employees). Requires either DKK 100k risk capital/grants raised in the last 3 years or gross profit ≥ DKK 250k in one of the last 3 annual accounts. Several application pools per year; max 24 months.",
-   "summaryDa": null,
+   "summaryDa": "Investering på 200.000–5.000.000 kr. (højst 35 % af projektomkostningerne) i udviklingsprojekter hos danske SMV'er (under 250 ansatte). Kræver enten 100.000 kr. i risikovillig kapital/tilskud inden for de seneste 3 år eller bruttofortjeneste på mindst 250.000 kr. i et af de seneste 3 regnskaber. Fire ansøgningsperioder om året; højst 24 måneder.",
    "website": "https://danmarksinnovationsfond.dk/en/innobooster",
    "applyUrl": "https://www.e-grant.dk",
    "maxFunding": 5000000,
@@ -109,12 +111,27 @@
      "note": null
     },
     {
-     "call": "Innobooster pool 3, 2026",
+     "call": "Innobooster period 3, 2026",
+     "date": "2026-08-06",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "Innobooster period 4, 2026",
      "date": "2026-10-15",
-     "status": "expected",
-     "note": "Listed by fondsradar.dk as next deadline – confirm on danmarksinnovationsfond.dk."
+     "status": "passed",
+     "note": "Answer expected 8–26 February 2027."
+    },
+    {
+     "call": "Innobooster period 1, 2027 (expected)",
+     "date": "2027-03-11",
+     "status": "tentative",
+     "note": "2027 periods are not published yet. Pattern: four periods a year, the first closing in mid-March."
     }
-   ]
+   ],
+   "whoCanApply": "Danish SMEs with a CVR number and fewer than 250 employees; start-ups qualify through raised capital, established firms through gross profit.",
+   "process": "Apply in e-grant. The submission date decides the period; applications in the same period compete for that period's budget. Answer about four months after the period closes.",
+   "duration": "Up to 24 months."
   },
   {
    "slug": "innofounder",
@@ -194,8 +211,14 @@
     {
      "call": "Innoexplorer round 3, 2026",
      "date": "2026-09-23",
-     "status": "confirmed",
+     "status": "passed",
      "note": "Opened 26 Aug 2026. Response expected 4 Dec 2026."
+    },
+    {
+     "call": "Innoexplorer round 1, 2027 (expected)",
+     "date": "2027-03-11",
+     "status": "tentative",
+     "note": "Not published yet. Pattern: three rounds a year (January/March, August, September)."
     }
    ]
   },
@@ -209,7 +232,7 @@
    ],
    "type": "grant",
    "summary": "Large strategic R&D projects (typically DKK 5–30m investment) in consortia of companies and research institutions within thematic calls (green, life science, critical & digital tech, quantum, biosolutions, defence). Two-phase process: expression of interest (phase 1) and full application (phase 2).",
-   "summaryDa": null,
+   "summaryDa": "Innovationsfondens store program for forsknings- og innovationsprojekter i konsortier af virksomheder, universiteter og offentlige parter. Typisk 5–30 mio. kr. over 2–5 år inden for årets temaer (bl.a. grøn omstilling, life science, digitale og kritiske teknologier).",
    "website": "https://danmarksinnovationsfond.dk/en/grand-solutions",
    "applyUrl": "https://www.e-grant.dk",
    "maxFunding": 30000000,
@@ -252,12 +275,15 @@
      "note": null
     },
     {
-     "call": "Grand Solutions 2027 – phase 1 (expected)",
+     "call": "Grand Solutions 2027, phase 1 (expected)",
      "date": "2027-03-02",
      "status": "tentative",
-     "note": "Call usually opens in e-grant early January; verify themes in December."
+     "note": "Not published yet. Pattern: phase 1 in early March, phase 2 in September; dates can differ by theme."
     }
-   ]
+   ],
+   "process": "Two phases: a short phase 1 application, then invited full applications with an interview in phase 2.",
+   "duration": "2–5 years.",
+   "whoCanApply": "Consortia with at least one company and one research institution; international partners are possible."
   },
   {
    "slug": "mudp",
@@ -269,7 +295,7 @@
    ],
    "type": "grant",
    "summary": "Grants for environmental technology: pre-projects and ETV verification (SMEs, de minimis), development/test/demonstration projects (GBER) and full-scale flagship (fyrtårn) projects. ≈ DKK 130m per year; one annual call published in February with staggered deadlines.",
-   "summaryDa": null,
+   "summaryDa": "Miljøministeriets tilskud til udvikling, test og demonstration af miljøteknologi (vand, klimatilpasning, cirkulær økonomi, luft, kemikalier). Forprojekter og ETV-verifikation, udviklings- og demonstrationsprojekter samt fyrtårnsprojekter har hver sin frist.",
    "website": "https://mudp.dk/",
    "applyUrl": "https://mudp.dk/soeger-du-tilskud/aktuelle-ansoegningsrunder",
    "maxFunding": null,
@@ -326,7 +352,8 @@
      "status": "tentative",
      "note": null
     }
-   ]
+   ],
+   "process": "Call published in February; separate deadlines for pre-projects (April), development and demonstration (May) and lighthouse projects (August). 2027 is the last year of the current strategy (2024–2027)."
   },
   {
    "slug": "eifo",
@@ -406,13 +433,13 @@
     "NORDIC"
    ],
    "type": "conditional_loan",
-   "summary": "Up to EUR 50,000 (max 50% of costs) for feasibility studies by Nordic SMEs on internationalising green solutions to markets outside the EU/EFTA. Conditional loan: fully converted to a grant if the project leads to an international establishment, 50% otherwise. Six deadlines per year; 5–6 weeks processing.",
-   "summaryDa": null,
+   "summary": "Up to EUR 50,000 (max 50% of costs) for feasibility studies by Nordic SMEs preparing to take a green solution to a new market. Since November 2026 Nopef also supports projects in the European Economic Area, not only markets outside the EU/EFTA. Conditional loan: fully converted to a grant if the project leads to an establishment abroad, 50% otherwise.",
+   "summaryDa": "Op til 50.000 EUR (højst 50 % af omkostningerne) til forundersøgelser, når nordiske SMV'er vil tage en grøn løsning til et nyt marked. Siden november 2026 støtter Nopef også projekter i EØS og ikke kun markeder uden for EU/EFTA. Betinget lån: konverteres fuldt til tilskud, hvis projektet fører til en etablering i udlandet, ellers 50 %.",
    "website": "https://nopef.com/",
    "applyUrl": "https://nopef.com/financing/apply-for-funding/",
    "maxFunding": 50000,
    "currency": "EUR",
-   "maxFundingNote": null,
+   "maxFundingNote": "EUR 50,000 per project. The new EEA rules and any changed limits should be checked in the current guidelines on nopef.com.",
    "fundingRate": "Max 50% of approved feasibility study costs.",
    "trlMin": 6,
    "trlMax": 9,
@@ -423,13 +450,14 @@
    ],
    "consortiumRequired": false,
    "tags": [
-    "internationalisation",
-    "feasibility",
+    "circular",
     "cleantech",
     "climate",
-    "circular",
-    "water",
-    "energy"
+    "energy",
+    "export",
+    "feasibility",
+    "internationalisation",
+    "water"
    ],
    "deadlines": [
     {
@@ -447,22 +475,25 @@
     {
      "call": "Nopef autumn 2/2026",
      "date": "2026-10-02",
-     "status": "confirmed",
+     "status": "passed",
      "note": null
     },
     {
      "call": "Nopef autumn 3/2026",
      "date": "2026-11-13",
-     "status": "confirmed",
+     "status": "passed",
      "note": null
     },
     {
-     "call": "Nopef spring 1/2027 (expected)",
+     "call": "Nopef spring 1/2027",
      "date": "2027-02-12",
-     "status": "tentative",
-     "note": null
+     "status": "confirmed",
+     "note": "Listed on nopef.com as the next deadline."
     }
-   ]
+   ],
+   "whoCanApply": "SMEs registered in Denmark, Finland, Iceland, Norway or Sweden with at most 249 employees and EUR 50m turnover.",
+   "process": "A short project proposal can be sent for an initial assessment before the full application. Decisions typically come 5–6 weeks after the deadline; the support is paid out after the final report.",
+   "duration": "Feasibility study, normally up to 24 months."
   },
   {
    "slug": "nordic-innovation",
@@ -504,7 +535,7 @@
     {
      "call": "Secondary critical raw materials value chains",
      "date": "2026-09-23",
-     "status": "confirmed",
+     "status": "passed",
      "note": null
     }
    ]
@@ -519,7 +550,7 @@
    ],
    "type": "blended",
    "summary": "Grant up to EUR 2.5m (TRL 6→8, max 24 months) and/or equity EUR 1–10m (up to EUR 30m via STEP) for single startups/SMEs with breakthrough, market-creating innovations. Short application any time (batched monthly, first Tuesday 17:00 Brussels); full application at six cut-offs per year; jury interview. Seal of Excellence for scores ≥ 13/15.",
-   "summaryDa": null,
+   "summaryDa": "EU's flagskib for start-ups og SMV'er med banebrydende teknologi: tilskud op til 2,5 mio. EUR (70 %) og egenkapitalinvestering fra EIC-fonden. Kort ansøgning kan indsendes løbende; fuld ansøgning til faste cut-offs efterfulgt af juryinterview. Fire cut-offs i 2027.",
    "website": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
    "applyUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search;programCode=HORIZON",
    "maxFunding": 2500000,
@@ -556,34 +587,55 @@
     {
      "call": "Short application batch (Oct)",
      "date": "2026-10-06",
-     "status": "confirmed",
+     "status": "passed",
      "note": "First Tuesday of the month."
     },
     {
      "call": "Full application cut-off 6/2026",
      "date": "2026-11-04",
-     "status": "confirmed",
+     "status": "passed",
      "note": null
     },
     {
      "call": "Short application batch (Nov)",
      "date": "2026-11-03",
-     "status": "confirmed",
+     "status": "passed",
      "note": null
     },
     {
-     "call": "Short application batch (Dec)",
+     "call": "EIC Accelerator cut-off",
      "date": "2026-12-01",
      "status": "confirmed",
      "note": null
     },
     {
-     "call": "Full application cut-off 1/2027 (expected)",
-     "date": "2027-01-13",
-     "status": "tentative",
-     "note": "WP2027 not yet published; 2026 pattern = 6 bimonthly cut-offs."
+     "call": "EIC Accelerator 2027 cut-off 1",
+     "date": "2027-01-20",
+     "status": "confirmed",
+     "note": "Work programme 2027, as reported after adoption on 5 Nov 2026. Verify on the Funding & Tenders portal."
+    },
+    {
+     "call": "EIC Accelerator 2027 cut-off 2",
+     "date": "2027-03-17",
+     "status": "confirmed",
+     "note": null
+    },
+    {
+     "call": "EIC Accelerator 2027 cut-off 3",
+     "date": "2027-09-01",
+     "status": "confirmed",
+     "note": null
+    },
+    {
+     "call": "EIC Accelerator 2027 cut-off 4",
+     "date": "2027-11-04",
+     "status": "confirmed",
+     "note": "Last cut-off under Horizon Europe."
     }
-   ]
+   ],
+   "process": "Short proposal at any time (answer in about 4–6 weeks), then a full proposal at a cut-off and a jury interview in Brussels. Four cut-offs in 2027, down from six in 2026.",
+   "duration": "Grant part up to 24 months.",
+   "whoCanApply": "Single start-ups and SMEs (and small mid-caps for equity only) from EU and associated countries."
   },
   {
    "slug": "eic-pathfinder",
@@ -632,13 +684,25 @@
     {
      "call": "Pathfinder Challenges 2026",
      "date": "2026-10-28",
+     "status": "passed",
+     "note": null
+    },
+    {
+     "call": "Pathfinder Open 2027, stage 1",
+     "date": "2027-02-25",
+     "status": "confirmed",
+     "note": "Two-stage in 2027; stage 2 on 16 Sep 2027."
+    },
+    {
+     "call": "Pathfinder Open 2027, stage 2",
+     "date": "2027-09-16",
      "status": "confirmed",
      "note": null
     },
     {
-     "call": "Pathfinder Open 2027 (expected)",
-     "date": "2027-05-11",
-     "status": "tentative",
+     "call": "Pathfinder Challenges 2027",
+     "date": "2027-09-29",
+     "status": "confirmed",
      "note": null
     }
    ]
@@ -686,10 +750,10 @@
      "note": null
     },
     {
-     "call": "EIC Transition 2027 (expected)",
+     "call": "EIC Transition 2027",
      "date": "2027-09-15",
      "status": "tentative",
-     "note": null
+     "note": "Sources give 14 or 16 September 2027."
     }
    ]
   },
@@ -734,10 +798,34 @@
      "note": null
     },
     {
-     "call": "STEP Scale-Up batch 4/2026",
+     "call": "STEP Scale-Up cut-off",
      "date": "2026-11-25",
      "status": "confirmed",
      "note": null
+    },
+    {
+     "call": "STEP Scale-Up 2027 cut-off 1",
+     "date": "2027-01-28",
+     "status": "confirmed",
+     "note": "As reported from work programme 2027."
+    },
+    {
+     "call": "STEP Scale-Up 2027 cut-off 2",
+     "date": "2027-04-29",
+     "status": "confirmed",
+     "note": "As reported from work programme 2027."
+    },
+    {
+     "call": "STEP Scale-Up 2027 cut-off 3",
+     "date": "2027-09-06",
+     "status": "confirmed",
+     "note": "As reported from work programme 2027."
+    },
+    {
+     "call": "STEP Scale-Up 2027 cut-off 4",
+     "date": "2027-11-24",
+     "status": "confirmed",
+     "note": "As reported from work programme 2027."
     }
    ]
   },
@@ -762,7 +850,7 @@
    ],
    "type": "grant",
    "summary": "Transnational market-oriented R&D projects led by an innovative SME: ≥ 2 independent entities from ≥ 2 Eurostars countries (≥ 1 EU/AC), ≤ 36 months, SMEs ≥ 50% of costs, no participant/country > 70%. Funding paid nationally (Denmark: max EUR 300k per participant / EUR 500k if several Danish partners; Poland via NCBR). Two calls per year (March & September).",
-   "summaryDa": null,
+   "summaryDa": "Internationalt F&U-samarbejde ledet af en innovativ SMV med mindst én partner fra et andet Eurostars-land. Hver partner finansieres af sit eget land (i Danmark Innovationsfonden, ca. 300.000 EUR pr. deltager). Projekter på op til 36 måneder; produktet skal på markedet inden for to år efter.",
    "website": "https://www.eurekanetwork.org/programmes-and-calls/eurostars/",
    "applyUrl": "https://myeurekaproject.org/",
    "maxFunding": 300000,
@@ -802,12 +890,21 @@
      "note": null
     },
     {
-     "call": "Eurostars Call 12 (expected)",
-     "date": "2027-03-18",
+     "call": "Eurostars-3 call 12",
+     "date": "2027-03-04",
+     "status": "expected",
+     "note": "Opens 17 Dec 2026, closes 14:00 CET. Reported by aggregators; verify on eurekanetwork.org."
+    },
+    {
+     "call": "Eurostars-3 call 13 (expected)",
+     "date": "2027-09-09",
      "status": "tentative",
-     "note": "Pattern: opens mid-January, closes mid/late March."
+     "note": "Pattern: second cut-off in September."
     }
-   ]
+   ],
+   "process": "One joint application in the Eureka portal; central evaluation and ranking, then national funding agreements. About 5–7 months from cut-off to start.",
+   "duration": "Up to 36 months.",
+   "whoCanApply": "Consortia of at least two independent partners from two Eurostars countries, led by an innovative SME."
   },
   {
    "slug": "horizon-cl5",
@@ -884,8 +981,8 @@
     "LI"
    ],
    "type": "grant",
-   "summary": "One of the largest funds for first-of-a-kind commercial demonstration of net-zero technologies (TRL 8+): general decarbonisation projects (small EUR 2.5–20m capex, medium 20–100m, large > 100m), clean-tech manufacturing and pilots. Grant up to 60% of relevant costs. Annual call; IF25 closed April 2026, IF26 expected to open Q4 2026 with deadline ≈ April 2027.",
-   "summaryDa": null,
+   "summary": "One of the largest funds for first-of-a-kind commercial demonstration of net-zero technologies (TRL 8+): large (> EUR 100m capex), small and medium (EUR 2.5–100m) decarbonisation projects, clean-tech manufacturing and critical raw materials, and pilots. Grant up to 60% of relevant costs. IF25 closed in April 2026 with 358 applications asking for EUR 17.5bn against EUR 2.9bn. In December 2026 five calls open: this Net-Zero Technologies call, a new SME call, a new maritime call and two auctions (hydrogen, industrial heat).",
+   "summaryDa": "En af de største fonde til første kommercielle demonstration af net-zero-teknologier (TRL 8+): store (> 100 mio. EUR capex), små og mellemstore (2,5–100 mio. EUR) dekarboniseringsprojekter, cleantech-produktion og kritiske råstoffer samt piloter. Tilskud op til 60 % af de relevante omkostninger. I december 2026 åbner fem opslag: Net-Zero Technologies, et nyt SMV-opslag, et nyt maritimt opslag og to auktioner.",
    "website": "https://climate.ec.europa.eu/areas-action/eu-funding-climate-action/innovation-fund_en",
    "applyUrl": "https://cinea.ec.europa.eu/programmes/innovation-fund/calls-regular-grants_en",
    "maxFunding": null,
@@ -916,18 +1013,128 @@
      "note": null
     },
     {
-     "call": "IF26 call opening (expected)",
+     "call": "IF26 calls open (planned)",
      "date": "2026-12-03",
-     "status": "tentative",
-     "note": "Expected Q4 2026."
+     "status": "expected",
+     "note": "Five calls: NZT, SME, maritime, hydrogen auction, heat auction."
     },
     {
-     "call": "INNOVFUND-2026-NZT (expected)",
-     "date": "2027-04-22",
+     "call": "IF26 Net-Zero Technologies (indicative)",
+     "date": "2027-04-01",
      "status": "tentative",
-     "note": null
+     "note": "April 2027; the exact date comes with the call text."
     }
-   ]
+   ],
+   "process": "Single-stage application in the EU Funding & Tenders portal; scored on GHG avoidance, innovation, maturity, replicability and cost efficiency. Results about six months after the deadline, grant agreement within nine.",
+   "duration": "At least 3–10 years of monitored operation after entry into operation, depending on the topic.",
+   "whoCanApply": "Any legal entity, alone or in a consortium, with a project located in the EU/EEA."
+  },
+  {
+   "slug": "innovation-fund-sme",
+   "name": "EU Innovation Fund – SME call (IF26)",
+   "agency": "European Commission (DG CLIMA) / CINEA",
+   "region": "EU",
+   "countries": [
+    "EU",
+    "NO",
+    "IS",
+    "LI"
+   ],
+   "type": "grant",
+   "summary": "New from 2026: a separate Innovation Fund call for small and medium-sized enterprises with industrial decarbonisation projects of EUR 2.5–20m capex. Planned budget EUR 200m. Only SMEs can apply; in a consortium every member must be an SME. Research activities and maritime projects are excluded (maritime has its own call). Publication planned for 3 December 2026 with two deadlines in 2027. All details are subject to the final call text.",
+   "summaryDa": "Nyt i 2026: et særskilt Innovation Fund-opslag for små og mellemstore virksomheder med industrielle dekarboniseringsprojekter på 2,5–20 mio. EUR capex. Planlagt budget 200 mio. EUR. Kun SMV'er kan søge; i et konsortium skal alle deltagere være SMV'er. Forskning og maritime projekter er udelukket (maritim har sit eget opslag). Offentliggørelse planlagt til 3. december 2026 med to frister i 2027. Alle detaljer afhænger af den endelige opslagstekst.",
+   "website": "https://climate.ec.europa.eu/areas-action/eu-funding-climate-action/innovation-fund_en",
+   "applyUrl": "https://climate.ec.europa.eu/areas-action/eu-funding-climate-action/innovation-fund/calls-proposals/if26-sme-call_en",
+   "maxFunding": null,
+   "currency": "EUR",
+   "maxFundingNote": "Projects with EUR 2.5–20m capex; total budget EUR 200m (planned).",
+   "fundingRate": "Reported as up to 60% of eligible costs; to be confirmed in the call text.",
+   "trlMin": 8,
+   "trlMax": 9,
+   "eligibleSizes": [
+    "micro",
+    "small",
+    "medium"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "climate",
+    "energy",
+    "industry",
+    "cleantech",
+    "materials"
+   ],
+   "deadlines": [
+    {
+     "call": "IF26 SME call opens (planned)",
+     "date": "2026-12-03",
+     "status": "expected",
+     "note": null
+    },
+    {
+     "call": "IF26 SME call, first deadline",
+     "date": "2027-03-31",
+     "status": "tentative",
+     "note": "End of March 2027."
+    },
+    {
+     "call": "IF26 SME call, second deadline",
+     "date": "2027-09-30",
+     "status": "tentative",
+     "note": "End of September 2027."
+    }
+   ],
+   "process": "Online orientation dialogues (25 minutes) are offered from 7 December 2026 to 11 February 2027. Two cut-offs in 2027.",
+   "duration": "At least 3–10 years of monitored operation after entry into operation, depending on the topic.",
+   "whoCanApply": "SMEs under the EU definition (SME self-assessment in the Participant Register is required before the deadline)."
+  },
+  {
+   "slug": "innovation-fund-maritime",
+   "name": "EU Innovation Fund – Maritime call (IF26)",
+   "agency": "European Commission (DG CLIMA) / CINEA",
+   "region": "EU",
+   "countries": [
+    "EU",
+    "NO",
+    "IS",
+    "LI"
+   ],
+   "type": "grant",
+   "summary": "New from 2026: a separate Innovation Fund call for the maritime sector, expected to open in December 2026 with its own budget. It is expected to keep the maritime rules developed in the Net-Zero Technologies calls (zero- and low-emission vessels, on-board technologies, clean fuels and port infrastructure). Budget and deadline are not published yet.",
+   "summaryDa": "Nyt i 2026: et særskilt Innovation Fund-opslag for den maritime sektor, som forventes at åbne i december 2026 med eget budget. Det forventes at videreføre de maritime regler fra Net-Zero Technologies-opslagene (nul- og lavemissionsskibe, teknologi om bord, rene brændstoffer og havneinfrastruktur). Budget og frist er endnu ikke offentliggjort.",
+   "website": "https://climate.ec.europa.eu/areas-action/eu-funding-climate-action/innovation-fund_en",
+   "applyUrl": "https://cinea.ec.europa.eu/programmes/innovation-fund/calls-regular-grants_en",
+   "maxFunding": null,
+   "currency": "EUR",
+   "maxFundingNote": "Budget not published yet.",
+   "fundingRate": "Up to 60% of relevant costs (capex + opex delta).",
+   "trlMin": 8,
+   "trlMax": 9,
+   "eligibleSizes": [
+    "small",
+    "medium",
+    "large",
+    "public"
+   ],
+   "consortiumRequired": false,
+   "tags": [
+    "cleantech",
+    "climate",
+    "energy",
+    "industry",
+    "maritime",
+    "materials"
+   ],
+   "deadlines": [
+    {
+     "call": "IF26 maritime call opens (planned)",
+     "date": "2026-12-03",
+     "status": "expected",
+     "note": "Deadline not published; expected in spring 2027."
+    }
+   ],
+   "duration": "At least 3–10 years of monitored operation after entry into operation, depending on the topic.",
+   "whoCanApply": "Any legal entity, alone or in a consortium, with a project located in the EU/EEA."
   },
   {
    "slug": "life",
@@ -977,7 +1184,7 @@
     {
      "call": "LIFE 2026 – Standard Action Projects",
      "date": "2026-09-22",
-     "status": "confirmed",
+     "status": "passed",
      "note": null
     },
     {
@@ -1035,7 +1242,7 @@
     {
      "call": "DIGITAL 10th call round",
      "date": "2026-10-01",
-     "status": "confirmed",
+     "status": "passed",
      "note": null
     }
    ]
@@ -1073,7 +1280,7 @@
     {
      "call": "6th CB RES status call",
      "date": "2026-10-06",
-     "status": "confirmed",
+     "status": "passed",
      "note": null
     },
     {
@@ -1126,7 +1333,7 @@
     {
      "call": "4th small-scale project call",
      "date": "2026-11-04",
-     "status": "confirmed",
+     "status": "passed",
      "note": "Opened 16 Sep 2026."
     }
    ]
